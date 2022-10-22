@@ -2,6 +2,7 @@ import { useEffect } from 'react'
 import '../styles/globals.css'
 import Head from 'next/head';
 import Script from 'next/script';
+import { Modal } from '../components/modal';
 
 function MyApp({ Component, pageProps }) {
   
@@ -15,8 +16,10 @@ function MyApp({ Component, pageProps }) {
           referrerPolicy='no-referrer'
         />
       </Head>
+    
 
       <Component {...pageProps} />
+
 
       <Script
         src='https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js'
