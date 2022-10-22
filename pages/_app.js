@@ -16,7 +16,7 @@ function MyApp({ Component, pageProps }) {
           referrerPolicy='no-referrer'
         />
       </Head>
-      <Modal/>
+    
 
       <Component {...pageProps} />
 
