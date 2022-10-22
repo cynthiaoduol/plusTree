@@ -1,0 +1,50 @@
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.hero {
+    text-align: center;
+    color: white;
+    padding: 15em 0 25em 0;
+}
+
+.header {
+    background: linear-gradient(0deg, rgba(49, 66, 33, 0.1), rgba(49, 66, 33, 0.1)), url(../../public/image1.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+
+}
+
+.cardsection {
+    margin-top: -10em;
+    text-align: center;
+    padding-bottom:3em
+
+}
+
+.cardgroup {
+    display: flex;
+    width: 70%;
+    margin: 0 auto;
+    gap: 1em;
+
+}
+
+.main{
+    padding-bottom: 3em;
+}
+
+.footer{
+    background-color: #1A4D2E;
+    color: white;
+}
+.footer ul li{
+    list-style-type: none;
+    line-height: 1.8em;
+}
+.footer ul li :any-link{
+    color: white;
+    text-decoration: none;
+}
