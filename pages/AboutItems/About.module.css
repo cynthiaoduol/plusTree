@@ -1,0 +1,89 @@
+.container{
+    color:white;
+    font-size: 1.5em;
+}
+.main{
+    display:flex;
+   
+gap:5em;
+align-items: center;
+    margin :0 auto;
+}
+.aboutHeading{
+    margin-top: 2em;
+    font-size: 2rem;
+}
+.vision{
+    border:2px solid #1A4D2E;
+    width:20%;
+    height:500px;
+    border-radius:10px;
+    background:#1A4D2E;
+    color:white;
+    padding: 2em;
+    margin:1em 0 ;
+}
+.mission{
+border:2px solid green;
+border-radius:10px;
+width:20%;
+background:#1A4D2E;
+color:white;
+padding: 2em;
+height:500px;
+margin:1em 0 ;
+}
+
+.values{
+    border:2px solid  green;
+    border-radius:10px; 
+     width:20%;
+     color:white;
+     background:#1A4D2E;
+     padding: 2em;
+     height:500px;
+     margin:1em 0 ;
+}
+.paragraph{
+    width:100%;
+
+}
+
+.details{
+    display:flex;
+    justify-content: space-around;
+    /* margin-top: 5em; */
+    background-color: #96BB7C;
+}
+/* .h1{
+    color:green;
+} */
+.backgroundimg{
+    background-image:linear-gradient(rgba(0,0,0,.5),rgba(0,0,0,.5)),url('../../public/image/pexels-luis-del-río-15286\ \(1\).jpg');
+  background-size: cover;  
+  background-repeat: no-repeat;   
+  background-position: center center;
+  width:100vw;
+  height:70vh;
+    
+}
+.about h1 {
+    text-align: center;
+    color:#96BB7C;
+    margin-top: 2em;
+    font-size:3rem;
+}
+
+.about p {
+    text-align: center;
+    font-size: 2.5rem;
+}
+.quote{
+    font-size: 5rem;
+    color:#96BB7C;
+margin-left: 1em;
+}
+.heading{
+    color:#96BB7C;
+    text-align: center;
+}
